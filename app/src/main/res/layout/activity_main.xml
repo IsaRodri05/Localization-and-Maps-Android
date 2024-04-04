@@ -19,11 +19,18 @@
         android:layout_centerInParent="true"
         android:textSize="30sp"/>
     <Button
+        android:id="@+id/botonUbicacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vamos a ver tu ubicación"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textTitulo"/>
+    <Button
         android:id="@+id/botonMapa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Vamos al mapa"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/textTitulo"/>
+        android:layout_below="@+id/botonUbicacion"/>
 
 </RelativeLayout>

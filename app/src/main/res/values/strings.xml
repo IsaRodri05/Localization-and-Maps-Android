@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">LocalizacionYMapas</string>
+    <string name="title_activity_mapa">MapaActivity</string>
 </resources>

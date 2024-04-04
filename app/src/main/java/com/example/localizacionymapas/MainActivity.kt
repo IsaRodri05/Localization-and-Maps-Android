@@ -15,9 +15,9 @@ class MainActivity : AppCompatActivity() {
         val vista = bindingMenu.root
         setContentView(vista)
 
-        bindingMenu.botonMapa.setOnClickListener {
-            val intentMapa = Intent(this, Localizacion::class.java)
-            startActivity(intentMapa)
+        bindingMenu.botonUbicacion.setOnClickListener {
+            val intentUbicacion = Intent(this, Localizacion::class.java)
+            startActivity(intentUbicacion)
         }
     }
 }
