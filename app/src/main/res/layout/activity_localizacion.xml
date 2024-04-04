@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Localizacion"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/tituloLocalizacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tu ubicación"
+        android:fontFamily="@font/song"
+        android:textSize="30sp"
+        android:layout_above="@+id/longitud"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/longitud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Longitud: "
+        android:fontFamily="@font/song"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="100dp"
+        android:layout_alignParentStart="true"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/longitudRespuesta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="N/A"
+        android:fontFamily="@font/song"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="100dp"
+        android:layout_alignParentEnd="true"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/latitud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latitud: "
+        android:fontFamily="@font/song"
+        android:textSize="15sp"
+        android:layout_below="@+id/longitud"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_alignParentStart="true"
+        />
+    <TextView
+        android:id="@+id/latitudRespuesta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="N/A"
+        android:fontFamily="@font/song"
+        android:layout_below="@+id/longitud"
+        android:layout_marginEnd="100dp"
+        android:layout_alignParentEnd="true"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/elevacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elevación:"
+        android:fontFamily="@font/song"
+        android:textSize="15sp"
+        android:layout_below="@+id/latitud"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_alignParentStart="true"
+        />
+    <TextView
+        android:id="@+id/elevacionRespuesta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="N/A"
+        android:fontFamily="@font/song"
+        android:layout_below="@+id/latitud"
+        android:layout_marginEnd="100dp"
+        android:layout_alignParentEnd="true"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/distancia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distancia al Castillo Balmoral:"
+        android:fontFamily="@font/song"
+        android:textSize="15sp"
+        android:layout_below="@+id/elevacion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_alignParentStart="true"
+        />
+    <TextView
+        android:id="@+id/distanciaRespuesta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="N/A"
+        android:fontFamily="@font/song"
+        android:layout_below="@+id/elevacion"
+        android:layout_marginEnd="100dp"
+        android:layout_alignParentEnd="true"
+        android:textSize="15sp"
+        />
+
+
+</RelativeLayout>
