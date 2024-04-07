@@ -19,5 +19,10 @@ class MainActivity : AppCompatActivity() {
             val intentUbicacion = Intent(this, Localizacion::class.java)
             startActivity(intentUbicacion)
         }
+
+        bindingMenu.botonMapa.setOnClickListener {
+            val intentMapa = Intent(this, MapaActivity::class.java)
+            startActivity(intentMapa)
+        }
     }
 }
