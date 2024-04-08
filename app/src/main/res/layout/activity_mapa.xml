@@ -21,6 +21,8 @@
         android:background="@drawable/roundcorner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Ingresa la dirección por favor"/>
+        android:hint="Ingresa la dirección por favor"
+        android:inputType="text"
+        android:imeOptions="actionSend"/>
 
 </FrameLayout>
